@@ -1,0 +1,64 @@
+Flows and explanations
+
+Booking flow
+
+Starts from the main page. User should have an ability to choose 
+destination (“WAARHEEN?” field), 
+date and count of days (“WANNEER?” field),
+count  of persons, kids, rooms (“MET WIE?” field)
+in order to find available hotels matched chosen criteria.
+
+After clicking on the “Zoeken” button user is redirected to the “Available” page.
+
+On the “Available” page (Search page). 
+User should be able to choose 
+filter by name (“Naam hotel”),
+filter by attractions (“Bezienswaardigheden”),
+filter by price-range (“Prijsklasse” range),
+category-filters (“Sterren”),
+services-filters (“Diensten”),
+sorting of list (“Ordenen op”)
+in order to find available hotels matched chosen criteria. 
+User can see the generated list of the hotels like a list (“Als lijst inzien”), tiles (“Fotos”) or on the map (“Kaart”), and best price of each hotel of the list.
+
+After clicking on the “Hotel inzien” button user is redirected to the “Hotel details” page.
+ 
+On the “Hotel details” page.
+User can see the best price of chosen hotel with chosen criteria and all available types of rooms with prices. Also user have an ability to change
+amount of rooms and guests (“Kamers en gasten”),
+arrival date (“Inchecken”),
+departure date (“Uitchecken”)
+
+After clicking on the “Nu boeken” button user is redirected to the “booking/step1” page.
+
+On the “booking/step1” page.
+User can see chosen hotel, room type, arrival date, departure date, amount of guests, extra services, price of each booking hotel (in case of multiple bookings) and total price of the booking.
+Also user should be able to 
+delete chosen hotel from the cart (“Verwijder”),
+use “Gift cards” to pay for a booking
+
+After filling in all fields with valid data and clicking on the “Afrekenen” button user is redirected to the “Cart-payment” page.
+
+On the “Cart-payment” page user should have an ability to pay for the booking with payment card.
+After payment of the booking user should be redirected to the page with booking information, receive an e-mail about booking with voucher and invoice.
+
+SEO pages
+
+When the user is on the “Search page” he/she can see breadcrumbs with name of the destination and country that redirect the user to the SEO-pages.
+
+On the “SEO-page”
+ a list of hotels (without prices) that match destination/country of the breadcrumb is displayed.
+
+User should be able to choose 
+filter by name (“Naam hotel”),
+filter by attractions (“Bezienswaardigheden”),
+category-filters (“Sterren”),
+services-filters (“Diensten”),
+sorting of list (“Ordenen op”)
+in order to find available hotels matched chosen criteria.
+
+User can see the list of the hotels like a list (“Als lijst inzien”), tiles (“Fotos”) or on the map (“Kaart”).
+
+After clicking on the “Hotel inzien” button user is redirected to the “Hotel details” page.
+
+
